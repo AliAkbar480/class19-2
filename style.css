@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Bw Helder", Helvetica, sans-serif; 
+}
+.fix-width{
+    width: 1270px;
+    margin: auto;
+}
+.full-website{
+    width: 100vw;
+    margin: auto;
+}
+.header{background: #089d49;}
+.header-menu{
+    text-align: right;
+    position: relative;
+  
+}
+
+.header-menu ul{
+    width: 600px;
+    margin: auto;
+    margin-right: 200px;
+}
+.header-menu ul li{
+    display: inline-block;
+    
+  
+    
+}
+.header-menu ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: ;
+    font-size: 15px;
+}
+.header-menu ul li a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+.header-menu ul li:last-child::before{
+    content: '\f879';
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: #fff;
+    margin-right: -18px;
+}
+/*Banner-section start*/
+.banner-menu {
+    background-image: url(https://www.shohoz.com/v2/assets/super_app_banner3.png);
+    height: 451px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    box-shadow: 1px 1px 10px 5px #ddd;
+}
+
+.banner-menu img {
+    height: 50px;
+    margin-top: -37px;
+    display: inline-block;
+    margin-left: -656px;
+    position: relative;
+    top: -34px;
+}
+.banner-menu ul{
+    text-align: center;
+    margin-top: 77px;
+    margin-left: 609px;
+}
+.banner-menu ul li{
+    display: inline-block;
+    position: relative;
+    top: -48px;
+    left: 40px;
+    z-index: 1;
+
+}
+.banner-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 28px;
+    color: #000;
+}
+.banner-menu ul li:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: green; */
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: -8px;
+    height: 100%;
+    width: 0%;
+    z-index: 1;
+}
+.banner-menu ul li:hover::before{
+    width: 100%;
+    transition: .9s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/* before after effect start */
+.banner-menu ul li:nth-child(2):before{
+    content: '\f21c';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: -25px;
+    position: absolute;
+    top: 17px;
+    z-index: -1;
+
+}
+.banner-menu ul li:nth-child(3):before{
+    content: '\f2e7';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: -25px;
+    position: absolute;
+    top: 17px;
+    z-index: -1;
+}
+.banner-menu ul li:nth-child(4):before{
+    content: '\f1ba';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: -25px;
+    position: absolute;
+    top: 17px;
+    z-index: -1;
+}
+.banner-menu ul li:nth-child(5):before{
+    content: '\f207';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: -25px;
+    position: absolute;
+    top: 17px;
+    z-index: -1;
+}
+.banner-menu ul li:nth-child(6):before{
+    content: '\f21a';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: -25px;
+    position: absolute;
+    top: 17px;
+    z-index: -1;
+}
+.banner-menu ul li:nth-child(7):before{
+    content: '\f073';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: -25px;
+    position: absolute;
+    top: 17px;
+    z-index: -1;
+}
+.banner-menu ul li:nth-child(8):before{
+    content: '\f008';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: -25px;
+    position: absolute;
+    top: 17px;
+    z-index: -1;
+}
+.banner-menu ul li:nth-child(9):before{
+    content: '\f518';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: -25px;
+    position: absolute;
+    top: 17px;
+    z-index: -1;
+}
+select{
+    outline: none;
+    border: none;
+    background-color: none;
+    position: relative;
+    top: -49px;
+    left: 152px;
+    cursor: pointer;
+    font-size: 18px;
+}
+/* banner-buttom start */
+.banner-buttom{
+   
+    text-align: center;
+    background-color: #089d49;
+    color: #fff;
+    padding: 50px;
+    margin-left: -47px;
+}
+.banner-buttom .div-1, .div-2, .div-3 h1{}
+.banner-buttom .div-1{
+    width: 20%;
+    display: inline-block;
+}
+.banner-buttom .div-1 p{}
+.banner-buttom .div-2 {
+    width: 20%;
+    display: inline-block;
+}
+.banner-buttom .div-2 p{}
+.banner-buttom .div-3{
+    width: 20%;
+    display: inline-block;
+}
+.banner-buttom .div-3 p{}
+/* Container section start */
+.services{
+    background-color: rgb(240, 246, 255);
+}
+.container-section{
+   
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+}
+.container-section .content{
+    text-align: center;
+
+} 
+.container-section .content h1{
+    font-size: 40px;
+    font-family: "Bw Helder", Helvetica, 
+}
+.container-section .content h2{
+    color: #5d5e5f;
+    font-family: "Bw Helder", Helvetica, 
+}
+.container-section .img-section-2, .img-1, .img-2, .img-3, .img-4, .img-5, .img-6{
+    display: inline-block;
+    width: 27%;
+    margin-right: 63px;
+    text-align: center;
+
+}
+.container-section img{
+    width: 315px;
+}
+.container-section .main-div h3 {
+    color: #fff;
+    background-color: green;
+    padding: 10px;
+    width: 214px;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    margin-left: 38px;
+    
+}
+/* .container-buttom start */
+.container-buttom{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+}
+.border-md {
+    border-top: 5px dotted green;
+    height: 10px;
+    width: 1016px;
+    border-width: 7px;
+    position: relative;
+    left: 106px;
+    top: 13px;
+}
+.border-1 {
+    border-top: 5px dotted green;
+    height: 10px;
+    width: 158px;
+    border-width: 7px;
+    position: relative;
+    left: 291px;
+    top: 89px;
+}
+.border-2 {
+    border-top: 5px dotted green;
+    height: 10px;
+    width: 181px;
+    border-width: 7px;
+    position: relative;
+    left: 298px;
+    top: 89px;
+}
+.border-3 {
+    border: 5px dotted green;
+    height: 163px;
+    width: 107px;
+    border-width: 7px;
+    position: relative;
+    left: 285px;
+    top: 230px;
+    border-radius: 0px 90px 90px 0px;
+    border-left: none;
+    margin-top: -166px;
+}
+
+.border-4 {
+    border: 5px dotted green;
+    height: 153px;
+    width: 107px;
+    border-width: 7px;
+    position: relative;
+    left: -34px;
+    top: 128px;
+    border-radius: 89px 0px 0px 89px;
+    border-right: none;
+    margin-top: -166px;
+}
+.border-5 {
+    border-top: 5px dotted green;
+    height: 10px;
+    width: 206px;
+    border-width: 7px;
+    position: relative;
+    left: -136px;
+    top: 78px;
+}
+.border-6 {
+    border-top: 5px dotted green;
+    height: 10px;
+    width: 192px;
+    border-width: 7px;
+    position: relative;
+    left: -140px;
+    top: 144px;
+}
+
+
+.img-section-2 h2{
+    color: #5d5e5f;
+    font-family: "Bw Helder", Helvetica, 
+}
+.img-section-2 h2, h3{
+    color: green;
+    margin: 15px;
+    font-family: "Bw Helder", Helvetica, 
+}
+.img-section-2 h3{
+    font-size: 15px;
+}
+
+/* blog-section start */
+.clear::{
+    content: '';
+    display: block;
+    clear: both;
+}
+.blog{}
+.main-div{
+    width: 1050px;
+    margin: 50px auto;
+}
+.main-div h1{
+    font-size: 50px;
+}
+.blog .blog-1{
+    width: 33%;
+    float: left;
+    margin-top: 77px;
+
+}
+.blog .blog-2{
+   
+    width: 33%;
+    float: left;
+}
+.blog .blog-3{
+    width: 33%;
+    float: left;
+}
+.blog .div-1 {
+    
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.blog .div-1 p {
+    font-size: 11px;
+}
+.blog .pera{
+    margin: 50px 0;
+}
+/* blog-section end */
+
